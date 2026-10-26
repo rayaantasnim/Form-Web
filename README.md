@@ -110,8 +110,8 @@ Ensure you have **Python 3.8+** installed on your system.
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/student-registration-portal.git
-   cd student-registration-portal
+   git clone https://github.com/rayaantasnim/Form-Web.git
+   cd Form-Web
    ```
 
 2. **Create a Virtual Environment**:
