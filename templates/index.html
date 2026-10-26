@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Registration Form</h1>
+        <form action="/register" method="post">
+            <label>Name:</label>
+            <input type="text" name="name" required>
+            
+            <label>Age:</label>
+            <input type="number" name="age" required>
+            
+            <label>Email:</label>
+            <input type="email" name="email" required>
+            
+            <label>Mobile:</label>
+            <input type="text" name="mobile" required>
+            
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
